@@ -1,9 +1,5 @@
 package com.xingqiyi.pattern.service;
 
-
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicReference;
-
 /**
  * // TODO: 2021/4/28 线程安全 内部类
  *
