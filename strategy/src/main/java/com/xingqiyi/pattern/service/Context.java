@@ -6,7 +6,7 @@ import com.xingqiyi.pattern.service.impl.WeChatPay;
 import java.math.BigDecimal;
 
 /**
- * todo
+ * TODO: 2021/4/29 枚举策略
  *
  * @author xingqiyi
  * @date 2021年04月29日 下午10:12
