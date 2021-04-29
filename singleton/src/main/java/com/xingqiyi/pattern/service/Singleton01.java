@@ -11,7 +11,6 @@ import java.util.concurrent.atomic.AtomicReference;
  * @date 2021年04月28日 下午9:50
  */
 public class Singleton01 {
-    private static final AtomicReference<Singleton01> INSTANCE = new AtomicReference<Singleton01>();
     private static class SingletonHolder {
         private static Singleton01 instance = new Singleton01();
     }
