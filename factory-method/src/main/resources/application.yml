@@ -1,0 +1,21 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: factory-method
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
+    driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
+    url: jdbc:mysql://localhost:3306/nacos_config?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: qwe123...
+
+logging:
+  home: "logs"
+  name: "factory-method"
+  level:
+    root: "info"
+    org.springframework: "info"
+    com.gong: "debug"
