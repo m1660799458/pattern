@@ -12,6 +12,7 @@
         <module>singleton</module>
         <module>abstract-factory</module>
         <module>strategy</module>
+        <module>common</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -29,6 +30,7 @@
 
         <mysql.version>5.1.47</mysql.version>
         <druid.version>1.1.16</druid.version>
+        <ooxml.version>3.17</ooxml.version>
     </properties>
 
     <!-- 子模块继承之后，提供作用：锁定版本+子modlue不用写groupId和version  -->
@@ -99,6 +101,17 @@
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>${mybatis.spring.boot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>${ooxml.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>${ooxml.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
