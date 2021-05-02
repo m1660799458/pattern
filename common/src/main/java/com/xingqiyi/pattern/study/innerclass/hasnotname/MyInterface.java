@@ -1,4 +1,4 @@
-package com.xingqiyi.pattern.study.innerClass.hasNotName;
+package com.xingqiyi.pattern.study.innerclass.hasnotname;
 
 /**
  * @author xingqiyi

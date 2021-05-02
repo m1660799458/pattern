@@ -1,4 +1,4 @@
-package com.xingqiyi.pattern.study.innerClass;
+package com.xingqiyi.pattern.study.innerclass;
 
 import lombok.extern.slf4j.Slf4j;
 
