@@ -1,5 +1,6 @@
 package com.xingqiyi.pattern;
 
+import com.xingqiyi.pattern.study.ZiZeng;
 import com.xingqiyi.pattern.util.ExportExcel;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
@@ -19,9 +20,17 @@ public class CommonApp {
         SpringApplication.run(CommonApp.class, args);
         log.info("Hello World!");
         long aa = System.currentTimeMillis();
-        ExportExcel exportExcel = new ExportExcel();
-        exportExcel.doExportExcel();
+//        ExportExcel exportExcel = new ExportExcel();
+//        exportExcel.doExportExcel();
         long bb = System.currentTimeMillis();
         log.info(String.valueOf(bb - aa));
+
+
+        log.info("study ..........................");
+        /**
+         * TODO: 2021/5/2 自增测试
+         */
+        ZiZeng ziZeng = new ZiZeng();
+        ziZeng.study();
     }
 }
