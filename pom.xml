@@ -15,6 +15,7 @@
         <module>common</module>
         <module>bridge</module>
         <module>builder</module>
+        <module>adapter</module>
     </modules>
     <packaging>pom</packaging>
 
