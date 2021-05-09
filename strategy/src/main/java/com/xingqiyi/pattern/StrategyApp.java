@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.math.BigDecimal;
 
 /**
- * Hello world!
+ * TODO: 2021/5/9  个人理解：不同策略的选择，改变 context 对象的执行算法，有点像暴露一个接口里面给你分配你想要的算法
  *
  * @author xingqiyi
  */

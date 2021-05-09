@@ -7,6 +7,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
+ * TODO: 2021/5/9  个人理解：将不同的东西（复杂零件）组装
+ *
  * @author xingqiyi
  */
 @Slf4j

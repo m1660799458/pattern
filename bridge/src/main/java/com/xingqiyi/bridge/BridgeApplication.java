@@ -12,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.math.BigDecimal;
 
 /**
+ * TODO: 2021/5/9  个人理解：主要是两大模块的组合
  * @author xingqiyi
  */
 @SpringBootApplication

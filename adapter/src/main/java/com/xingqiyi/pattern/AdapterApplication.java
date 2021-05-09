@@ -14,6 +14,7 @@ import java.util.HashMap;
 
 /**
  * AdapterApplication
+ * TODO: 2021/5/9  个人理解：动态适配转换
  *
  * @author xingqiyi
  */
@@ -21,7 +22,7 @@ import java.util.HashMap;
 @Slf4j
 public class AdapterApplication {
     public static void main(String[] args) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
-        SpringApplication.run(AdapterApplication.class,args);
+        SpringApplication.run(AdapterApplication.class, args);
         log.info("Hello World AdapterApplication!!!");
 
         Accounts accounts = new Accounts();

@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 /**
- * // TODO: 2021/4/28  Hello world!
+ * TODO: 2021/5/9  个人理解：全局唯一
  *
  * @author xingqiyi
  */
