@@ -20,7 +20,7 @@ public class WeChatPay extends Pay {
     @Override
     public String toPay(String uId, String tradeId, BigDecimal amount) {
         log.info("WeChatPay的toPay()");
-        Boolean isSecurity = payMode.isSecurity(uId);
+        boolean isSecurity = payMode.isSecurity(uId);
         if (isSecurity) {
             log.info("WeChatPay is security");
             return "success";
