@@ -16,6 +16,7 @@
         <module>bridge</module>
         <module>builder</module>
         <module>adapter</module>
+        <module>command</module>
     </modules>
     <packaging>pom</packaging>
 
